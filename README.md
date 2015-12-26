@@ -30,12 +30,35 @@ servers are BitBucket and Stash.
 ### First steps
 
 To start working on a project using git we have three choices, the first one is to create our own repository in one of
-the previous server, for this example we will choose GitHub.
+the previous server, forking a repository or pushing up one after initializing it from a local folder.
+
+For this example we will cover the two first ones and we will choose GitHub as remote server.
 
 Supposing that we already have a GitHub account, we need to go the the main page of the remote server and create the
-repository. This is accomplished by clicking the + Icon and then selecting the right option of the dropdown menu.
+repository. This is accomplished by clicking the `+` Icon and then selecting the right option of the dropdown menu.
 
 ![GitHub new repository image](./img/new-repo-image-1.png)
+
+After filling the needed information we will finally have our repository created. Once there we will be able to get a
+local clone of it and start working.
+
+To fork a repository that already exists on GitHub we should go to the repository's homepage and click the Fork
+button provided to us.
+
+![GitHub fork repository image](./img/fork-repo-image-1.png)
+
+After this you will have a perfect copy of the original repository but into your own repositories of GitHub.
+
+To end up with the first steps to work with Git we will clone a repository into our local sandbox so we can start
+working on a project. Go to the homepage of the repository and click the copy to clipboard button and then write the
+following on the console.
+
+![GitHub fork repository image](./img/clone-repo-image-1.png)
+
+`git clone https://github.com/troianoandres/git-course.git`
+
+The only difference you must have is the URL of the repository to be cloned. After you run this command you should have
+locally clone the entire proyect.
 
 ### Working with git
 
