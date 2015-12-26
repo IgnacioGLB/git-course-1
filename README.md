@@ -51,14 +51,14 @@ After this you will have a perfect copy of the original repository but into your
 
 To end up with the first steps to work with Git we will clone a repository into our local sandbox so we can start
 working on a project. Go to the homepage of the repository and click the copy to clipboard button and then write the
-following on the console.
-
-![GitHub fork repository image](./img/clone-repo-image-1.png)
+following command into the command line.
 
 `git clone https://github.com/troianoandres/git-course.git`
 
+![GitHub fork repository image](./img/clone-repo-image-1.png)
+
 The only difference you must have is the URL of the repository to be cloned. After you run this command you should have
-locally clone the entire proyect.
+locally cloned the entire project.
 
 ### Working with git
 
