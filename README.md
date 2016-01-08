@@ -62,5 +62,31 @@ locally cloned the entire project.
 
 ### Working with git
 
+We will cover 3 of the most important commands you must know to work with Git. Those are `git pull`, `git commit`,
+`git push`
+
+#### git pull
+
+Is a command used to get all the latest changes made to the repository, this will update all git history, files and
+branches. To run this command just type `git pull` into the command line.
+
+#### git commit
+
+Is a command used to make a snapshot of the current changes, to make the changes be saved into the snapshot you must
+stage them into the commit files. To add the `README.md` file to the commit files you should run `git add README.md`
+into the command line.
+
+To check the status of the staging process you could run `git status` and it will show you the changes to be committed.
+
+Then when you are ready to commit the changes you should run `git commit -m "(...)"` where `(...)` is the commit message.
+We must use a representative message for each commit, allowing us to know which is the purpose of the commit. We should
+also have in mind to make each commit as atomic as possible, allowing us to revert the changes if needed.
+
+#### git push
+
+When you have made all the changes you want, and they are all committed you must push all to the server. To
+accomplish this you should run `git push origin (branch)`, where `(branch)` is the branch where you want the
+changes to be pushed. What is a branch will be covered in the next section.
+
 ### Collaborating into a project with git
 
