@@ -90,3 +90,16 @@ changes to be pushed. What is a branch will be covered in the next section.
 
 ### Collaborating into a project with git
 
+When collaborating into a project you must be aware that multiple developers are pushing changes to the server all the
+time. If you work into a feature and someone make some changes to the same files you are currently working on you'll
+have serveral problems. To avoid this kind of issues we have the possibility to create a branch, which is a different
+line of development from the master of the repository. A branch allows you to work into a feature without having conflicts
+with other developers and then when you finished working on it you can merge it to the master branch to add you feature.
+
+You must have your branch the most updated as possible, if wanted to, this will help us to avoid conflicts into our
+development.
+
+When working on a branch you will work the same way as you were before, you will merge the branch into master later on
+using the remote server interface.
+
+To create a branch you should run `git checkout (branch)`, where `(branch)` is the desired name for the branch.
