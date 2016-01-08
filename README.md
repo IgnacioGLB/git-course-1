@@ -103,3 +103,21 @@ When working on a branch you will work the same way as you were before, you will
 using the remote server interface.
 
 To create a branch you should run `git checkout (branch)`, where `(branch)` is the desired name for the branch.
+
+#### Creating a pull requrest
+
+When you finished working on a specific feature you must create a pull request, allowing other developers to see your
+code and approve it. To open a pull request on GitHub you must click into the `New pull request` button and then
+change the base fork to point out the repository you want to merge your changes.
+
+![GitHub New pull request button](./img/new-pull-request-image-1.png)
+
+Usually you will have to change it if you are working on a forked repository since the base fork is always into the
+original repository. To change it you should select the desired repository from the dropdown list.
+
+![GitHub pull request repositories dropdown list](./img/repository-dropdown-list-image-1.png)
+
+When all this changed are made you should click into the `Create pull request` button and the pull request must be
+created. Once the pull request is reviewed you are finally able to merge it.
+
+![GitHub Create pull request button](./img/create-pull-request-image-1.png)
