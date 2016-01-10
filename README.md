@@ -12,7 +12,7 @@ then push to the server the changes made. But what happens if the server is down
 
 ### What is Git?
 
-With Git, the develipers don’t just check out the current version of the files and work from them, they actually mirror
+With Git, the developers don’t just check out the current version of the files and work from them, they actually mirror
 the entire version history. Each developer always has a complete copy of everything.
 
 A central server is still used, but should the worst happen, then everything can still be restored from any of the
